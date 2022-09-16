@@ -79,8 +79,9 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
      
-        {"type": "生日", "name": "高琳宝贝", "year": "1996", "date": "09-04"},
-        {"type": "生日", "name": "张硕宝贝", "year": "1996", "date": "01-31"},
+        {"type": "生日", "name": "高琳宝贝", "year": "1999", "date": "09-04"},
+        {"type": "生日", "name": "张硕宝贝", "year": "1999", "date": "01-31"},
+         {"type": "节日", "name": "宝贝考研", "year": "2020", "date": "12-25"},
    
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
