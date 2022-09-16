@@ -55,7 +55,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oIuoa6_bvIW2U9KwcZ9QJSXfIP9I",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "aYCm3hE8Uh5Ubr49jbnbLGqWHTzS5BTBMLGiAJ7Gci8",
+      useTemplateId: "kGBN_jfSxOA5Hf1EDIFQQJpLx1WFcFuptZ5HgHjaRFY",
       // 所在省份
       province: "云南",
       // 所在城市
@@ -70,7 +70,7 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "琳琳宝贝", "year": "2023", "date": "09-04"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+   
       ]
     },
     {
