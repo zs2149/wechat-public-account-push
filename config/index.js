@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oIuoa6_bvIW2U9KwcZ9QJSXfIP9I",
+      id: "oIuoa69X9yVaowaq9O_UOs-gatR4",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "kGBN_jfSxOA5Hf1EDIFQQJpLx1WFcFuptZ5HgHjaRFY",
       // 所在省份
@@ -78,10 +78,9 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-     
+        {"type": "节日", "name": "宝贝考研", "year": "2020", "date": "12-25"},
         {"type": "生日", "name": "高琳宝贝", "year": "1999", "date": "09-04"},
-        {"type": "生日", "name": "张硕宝贝", "year": "1999", "date": "01-31"},
-         {"type": "节日", "name": "宝贝考研", "year": "2020", "date": "12-25"},
+         
    
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -95,16 +94,19 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "张硕",
+      id: "oIuoa6_bvIW2U9KwcZ9QJSXfIP9I",
+      useTemplateId: "kGBN_jfSxOA5Hf1EDIFQQJpLx1WFcFuptZ5HgHjaRFY",
+      province: "云南",
+      city: "西双版纳",
+      horoscopeDate: '02-04',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [
+         {"type": "节日", "name": "宝贝考研", "year": "2020", "date": "12-25"},
+        {"type": "生日", "name": "高琳宝贝", "year": "1999", "date": "09-04"},],
+      customizedDateList: [
+        {"keyword": "love_day", date: "2022-06-30"},]
     },
     {
       name: "老婆2",
